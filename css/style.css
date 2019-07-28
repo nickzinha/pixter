@@ -1,0 +1,233 @@
+
+
+/*CSS DO HEADER*/
+body{
+    margin-top: 0px !important;
+}
+.menu{
+    background-color: #fcdb00;
+    margin-bottom: inherit !important;
+}
+.title-menu li a{
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 20px;
+    margin-bottom: 30px;
+    float: right !important;
+}
+.principal-nav li a{
+    text-align: center;
+}
+
+
+/*CSS DA INDEX*/
+.books-title h1{
+    font-weight: bold;
+    text-align: center;
+}
+.books-description{
+    text-align: center;
+}
+
+.livros{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Modal 1*/
+.livro-one{
+    border-radius: 30px;
+}
+.harry-potter{
+ margin-bottom: 25px;
+}
+
+.button-filosofal{
+    background-color: #49080c;
+    font-weight: bold;
+    color: white;
+}
+
+.pedra-filosofal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Monotype Corsiva";
+    color: #49080c;
+}
+
+.pedra-descricao{
+    text-align: justify;
+}
+
+/*Modal 2*/
+
+.livro-two{
+    border-radius: 30px;
+}
+
+.button-secreta{
+    background-color: #527151;
+    font-weight: bold;
+    color: white;
+}
+
+.camara-secreta{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Monotype Corsiva";
+    color: white;
+}
+
+.camara-descricao{
+    text-align: justify;
+}
+
+.secret-header{
+    background-color: #1f2e27;;
+}
+
+.close-secret{
+    color: white !important;
+}
+
+/*Modal 3*/
+
+.livro-tres{
+    border-radius: 30px;
+}
+
+.button-prisioneiro{
+    background-color: #80006a;
+    font-weight: bold;
+    color: white;
+}
+
+.prisioneiro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "sans-serif";
+    color: white;
+
+}
+
+.prisioneiro-descricao{
+    text-align: center;
+}
+
+.header-prisioneiro{
+    height: 100px;
+    background-color: #491a49;
+    border-radius: 29px;
+}
+
+.img-prisioneiro img{
+    border-radius: 20px;
+}
+
+.close-prisioneiro{
+    color: white;
+}
+
+/*Modal 4 */
+
+.livro-four{
+    border-radius: 30px;
+}
+
+.button-fogo{
+    background-color: #171d37;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+.fogo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "sans-serif";
+    color: white;
+
+}
+
+.fogo-descricao{
+    text-align: center;
+}
+
+.header-fogo{
+    height: 100px;
+    background-color: #171d37;
+    border-radius: 29px;
+}
+
+.close-fogo{
+    color: white;
+}
+.textos-fogo{
+    text-align: justify;
+}
+
+.texto-publicacao-fogo{
+    text-align: center;
+}
+
+
+/*CSS DO FOOTER*/
+
+.row-footer{
+    background-color: black;
+}
+.titulo-footer{
+    color: yellow;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.sub-title{
+    color: white;
+    font-size: 15px;
+}
+
+.botao-submit{
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 25px !important;
+}
+.redes-sociais a{
+    color: yellow;
+    font-size: 40px;
+}
+.redes-sociais{
+    margin-top: 75px;
+}
+.enderecos{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*CSS PARA VERSÃO MOBILE*/
+
+@media (min-width: 320px) and (max-width: 568px){
+    .end-mapa iframe{
+        width: 250px;
+    }
+    .title-menu li a{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1365px){
+    .row-footer{
+       margin-top: 423px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .title-menu li a{
+        margin-top: 35px;
+    }
+}

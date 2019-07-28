@@ -1,0 +1,22 @@
+{
+  "name": "pixer",
+  "version": "1.0.0",
+  "description": "Teste Front-end",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolly",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "live-server": "^1.1.0",
+    "pump": "^1.0.1"
+  },
+  "dependencies": {
+    "bower": "^1.8.8"
+  }
+}

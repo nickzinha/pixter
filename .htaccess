@@ -1,0 +1,24 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+	deny from all
+</Files>
+
+php_value allow_url_fopen on
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^\/?$ index.php [QSA,L,NC]
+	RewriteRule ^home\/?$ index.php [QSA,L,NC]
+	RewriteRule ^books\/?$ books.php [QSA,L,NC]
+	RewriteRule ^contato\/?$ contato.php [QSA,L,NC]
+	RewriteRule ^address\/?$ address.php [QSA,L,NC]
+	RewriteRule ^livros\/?$ livros.php [QSA,L,NC]
+	RewriteRule ^Api\/SendContato\/?$ _ws/SendContact.php [NC,L]
+	RewriteRule ^Api\/SendFooter\/?$ _ws/SendFooter.php [NC,L]
+
+
+	RewriteRule ^404\/?$ 404.php [QSA,L,NC]
+
+	RewriteRule ^Api\/SendContact\/?$ _ws/SendContact.php [NC,L]
+
+</IfModule>
