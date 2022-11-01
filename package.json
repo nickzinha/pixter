@@ -9,7 +9,7 @@
   "author": "Nicolly",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11",
